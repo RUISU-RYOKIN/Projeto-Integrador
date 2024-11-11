@@ -34,9 +34,9 @@
 
                 <div class="form-actions">
                     <button type="submit" class="btn-login">Entrar</button>
-                    @if (Route::has('password.request'))
-                        <a class="btn-link" href="{{ route('password.request') }}">Esqueceu sua senha?</a>
-                    @endif
+                 
+                        <a class="btn-link">Esqueceu sua senha?</a>
+                   
                 </div>
             </form>
         </div>

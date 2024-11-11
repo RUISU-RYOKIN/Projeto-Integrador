@@ -95,21 +95,22 @@ body {
 }
 
 .btn-dark-modern {
-    background-color: #222; /* Fundo escuro */
+    background-color: #203d55;
     color: #ffffff; /* Texto branco */
-    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda clara e suave */
-    border-radius: 25px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
     font-size: 16px; /* Tamanho da fonte */
     text-transform: uppercase; /* Texto em maiúsculas */
     font-weight: bold; /* Texto em negrito */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves */
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .btn-dark-modern:hover {
     background-color: #444; /* Fundo mais claro ao passar o mouse */
     transform: translateY(-2px); /* Efeito de levantar ao passar o mouse */
-    border-color: rgba(255, 255, 255, 0.5); /* Borda mais clara ao passar o mouse */
+    border-color: rgba(0, 165, 241, 0.5); /* Borda mais clara ao passar o mouse */
 }
 .btn-dark-modern:focus {
     outline: none; /* Remove contorno padrão */
@@ -544,3 +545,87 @@ body {
 }
 
 
+/* Container centralizado para a criação de serviço */
+.service-form-container {
+    max-width: 550px;
+    width: 100%;
+    padding: 50px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+}
+
+/* Alinhamento do rótulo da "Descrição do Serviço" */
+.service-form-container .form-label {
+    display: inline-block;
+    padding-top: 10px; /* Ajuste o valor conforme necessário */
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+
+/* Estilo para os campos de entrada */
+.service-form-container .form-control {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 1.1rem;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.service-form-container .form-control:focus {
+    box-shadow: 0px 0px 10px rgba(50, 150, 255, 0.7);
+    transform: scale(1.02);
+}
+
+/* Botões de ação */
+.service-form-container .btn-primary {
+    width: 15%;
+    padding: 12px;
+    padding-top: 1%;
+    background-color: #4e6e89;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.service-form-container .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.service-form-container .btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e6e89;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding-top: 5px;
+
+}
+
+.service-form-container .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Título */
+.service-form-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Espaçamento entre elementos */
+.service-form-container .mb-4 {
+    margin-bottom: 1.5rem !important;
+}
